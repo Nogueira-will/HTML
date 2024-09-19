@@ -57,3 +57,13 @@ h1, h2{
     margin-bottom: 4px;
     line-height: 150%;
 }
+
+footer{
+    margin: 48px;
+    color: #F0E8C2;
+    text-align: center;
+}
+
+footer img{
+    vertical-align: middle;
+}
