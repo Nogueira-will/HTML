@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Open Sans", sans;
+    font-size: 16px;
+}
+
+#page{
+    margin: 88px 80px;
+}
+
+.subtitulo{
+    color: #E1624F;
+    font-weight: bold; 
+    margin-bottom: 8px;
+}
+
+h1{
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.textoCabecalho{
+    margin: 24px 8px 40px;
+    text-align: center;
+    font-style: italic;
+}
+
+#introducao{
+    margin: 64px 0px;
+}
+
+#temploHaedong img, #temploBeomeo img, #cabecalho img, #parqueYongdusan img{
+    width: 100%;
+}
+
+#conteudo h2{
+    margin: 20px 0 5px 0;
+    padding-left: 4px;
+}
+
+#conteudo p{
+    margin-bottom: 20px;
+}
+
+#temploHaedong span{
+    font-weight: bold;
+}
+
+#temploHaedong li{
+    color: #0C51A7;
+    font-weight: bold;
+}
+
+#temploBeomeo span{
+    font-weight: bold;
+}
+
+#temploBeomeo li{
+    color: #0C51A7;
+    font-weight: bold;
+}
+
+#parqueYongdusan span{
+    font-weight: bold;
+}
+
+#parqueYongdusan li{
+    font-weight: bold;
+}
+
+#primeira{
+    color: #591B98;
+}
+#segunda{
+    color: #E5245E;
+}
+#terceira{
+    color: #E95E10;
+    margin-bottom: 80px;
+}
+
+#conclusao{
+    text-align: center;
+}
+
+footer{
+    margin-top: 80px;
+    text-align: center;
+}
+
+footer img{
+    vertical-align: middle;
+}
