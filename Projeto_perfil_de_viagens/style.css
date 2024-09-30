@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+header{
+    border: 1px solid red;
+}
+
+#barraPesquisa{
+    float: right;
+    display: flex;
+    margin: 24px 32px;
+    align-items: center;
+    height: 40px;
+}
+
+.logo{
+    margin: 24px 32px;
+}
+
+.lupa{
+    width: 32px;
+}
+
+.fotoPerfil{
+    width: 40px;
+}
+
+#barraPesquisa a{
+    text-decoration: none;
+    color: #6C6C6C;
+    padding: 4px 16px;
+}
+
+
+#barraPesquisa a:hover{
+    color: #EF5F4C;
+}
