@@ -3,6 +3,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 24px;
+    font: 14/150% var(--font-text);
 }
 
 footer div{
