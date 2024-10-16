@@ -31,3 +31,8 @@
     --text-sm: 400 14px/140% var(--font-maven-pro);
 
 }
+
+body{
+    background-image: url(imagens/Background_Intro.png);
+}
+
