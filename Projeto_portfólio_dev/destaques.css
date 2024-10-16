@@ -7,7 +7,11 @@
     margin-inline: 120px;
     margin-bottom: 144px;
 
-    div{
+    a{
+        &:hover{
+            border: 1px solid var(--gray-600);
+        }
+        text-decoration: none;
         padding: 12px;
         width: 330px;
         height: 280px;
