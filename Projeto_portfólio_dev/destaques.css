@@ -35,6 +35,7 @@
     }
 
     header{
+        margin-top: 72px;
         grid-area: header;
         text-align: center;
 
