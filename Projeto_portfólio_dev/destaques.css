@@ -4,7 +4,6 @@
     "header header header"
     "destaques destaques destaques"
     "destaques destaques destaques";
-    grid-template-columns: repeat(3, 1fr);
     margin-inline: 120px;
     margin-bottom: 144px;
 
