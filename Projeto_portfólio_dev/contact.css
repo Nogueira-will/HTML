@@ -1,0 +1,45 @@
+#contact{
+    display: grid;
+    justify-content: center;
+    background-image: url(imagens/Background_Contacts.png);
+    margin-bottom: 200px;
+
+    header{
+        text-align: center;
+        span{
+            color: var(--purple);
+            font: var(--subtitle);
+        }
+
+        h1{
+            color: var(--gray-600);
+            font: var(--title-md);
+            margin-block: 8px;
+        }
+
+        p{
+            font: var(--text-md);
+            color: var(--gray-500);
+            margin-bottom: 48px;
+        }
+    }
+}
+
+.botaoSocial{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--gray-300);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+
+    span{
+        display: flex;
+        align-items: center;
+
+        img{
+            margin-right: 12px;
+        }
+    }
+}
