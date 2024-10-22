@@ -14,10 +14,6 @@ main{
         max-width: 33rem;
         margin-left: auto;
 
-        & p{
-            margin-bottom: 3rem;
-        }
-
         & h1{
             font: 600 1.5rem/125% var(--font-family);
             margin-bottom: 0.5rem;
