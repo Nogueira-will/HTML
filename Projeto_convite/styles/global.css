@@ -41,3 +41,9 @@
     --text-sm: 500 14px var(--font-sans);
     --text-xs: 500 12px var(--font-sans);
 }
+
+body{
+    background-color: #1E1E1E;
+    overflow: hidden;
+}
+

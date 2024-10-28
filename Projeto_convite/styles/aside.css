@@ -1,0 +1,30 @@
+.background-logo{
+    position: relative;
+    margin: 20px;
+
+    & > img{
+        width: 400px;
+        height: calc(100vh - 40px);
+        position: absolute;
+        border-radius: 12px;
+    }
+
+    h1{
+        color: var(--pink);
+        font: var(--logo);
+        margin-bottom: 4px;
+    }
+
+    p{
+        font: var(--text-md);
+        color: var(--text-heading);
+    }
+}
+
+.info-logo{
+    position: absolute;
+    margin: 32px;
+}
+
+aside{
+}
