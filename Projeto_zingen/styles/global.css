@@ -83,7 +83,18 @@ h3{
 a{
     text-decoration: none;
     color: inherit;
+}
 
+a:hover{
+    background: linear-gradient(
+        90deg, 
+        var(--brand-color-secondary) 0%,
+        var(--brand-color-primary) 100%
+    );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 /* Usamos o role="list" para mostrar que isso é uma lista para facilitar a interpretação da web */
