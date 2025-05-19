@@ -1,0 +1,50 @@
+header{
+    padding-block: 2rem;
+}
+
+#profile img{
+    width: 176px;
+    height: 176px;
+    margin-bottom: 1rem;
+}
+
+.description{
+    & h1{
+        color: var(--text-color-primary);
+        margin-bottom: .5rem;
+    }
+
+    & p{
+        font: var(--text-md);
+    }
+}
+
+#info{
+    list-style: none;
+    padding-block: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    & li{
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+    }
+}
+
+@media(width>=1280px){
+    header{
+        display: flex;
+    }
+
+    #profile{
+        display: flex;
+        max-width: 592px;
+        gap: 2rem;
+        margin-right: auto;
+    }
+    #info{
+        width: 280px;
+    }
+}
