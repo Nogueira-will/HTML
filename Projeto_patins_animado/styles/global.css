@@ -31,3 +31,8 @@ h2{
     font: 700 var(--fs-lg)/1.2 "Syne", sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
