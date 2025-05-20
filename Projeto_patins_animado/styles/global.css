@@ -1,0 +1,33 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --snitap-sun: #FFCD1E;
+    --snitap-sky-mid: #06B6D4;
+    --snitap-sky-light: #67E8F9;
+    --snitap-joy-mid: #DB2777;
+    --snitap-joy-light: #F472B6;
+    --snitap-leaf-mid: #16A34A;
+    --text: #000000;
+    --highlights: #000000;
+    --background: #FAFAFA;
+
+    --fs-sm: 0.875rem;
+    --fs-base: 1rem;
+    --fs-lg: 2.5rem;
+    --fs-xl: 4rem;
+
+    --ff-base: "Montserrat", sans-serif;
+    --line-base: 1.5;
+}
+
+h1{
+    font: 700 var(--fs-xl)/1.25 "Syne",sans-serif;
+}
+h2{
+    font: 700 var(--fs-lg)/1.2 "Syne", sans-serif;
+}
+
