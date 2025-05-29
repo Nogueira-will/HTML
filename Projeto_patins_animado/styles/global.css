@@ -24,7 +24,7 @@
     --line-base: 1.5;
 }
 
-body{
+html{
     font: 500 var(--fs-base)/1.5 var(--ff-base);
 }
 
