@@ -1,0 +1,86 @@
+.hero{
+    background-image: url(../assets/hero-background.png);
+    background-size: cover;
+    height: 100vh;
+    /* Posição da imagem não ficou conforme figma */
+    
+
+    & header{
+        display: flex;
+        padding: 3.5rem 10rem 0 10rem;
+        /* Utilizei padding pq o margin estava jogando o background todo pra baixo */
+        /* margin: 3.5rem 10rem 0 10rem; */
+        align-items: center;
+        justify-content: space-between;
+        
+        a{
+            /* Para conseguir fazer o after com as medidas exatas do link é necessário definir as medidas do link */
+            width: 5.5rem;
+            height: 2.3rem;
+
+            padding: .75rem 1.25rem;
+            background: #7D298A;
+            color: #F8FBFB;
+            border-radius: .5rem;
+            font: 700 .875rem/1 var(--ff-base);
+
+            position: relative;
+
+            &:hover::after{
+                transform: scaleX(1);
+                opacity: 40%;
+                width: inherit;
+                height: inherit;
+            }
+
+            &::after{
+                content: "";
+                /* Não consigo passar as medidas para o after */
+                /* Para conseguir fazer o after com as medidas exatas do link é necessário definir as medidas do link */
+                width: inherit;
+                height: inherit;
+                border-radius: inherit;
+
+                /* Não entendi qual background utilizar ou se vai ser apenas opacidade */
+                background-color: #BAC6C9;
+
+                position: absolute;
+                left: 0;
+                bottom: 0;
+
+                /* Era pra começar como se fosse um círculo no centro, não soube fazer */
+                opacity: 0;
+                transform: scaleX(0);
+                transition: all 400ms ease-in-out;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+
+            }
+        }
+    }
+}
+
+.main-hero{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 10rem 0 0 0;
+
+    margin-inline: auto;
+    height: 200px;
+    width: 656px;
+
+    & h1{
+        color: #F8FBFB;
+        font: 700 3rem/1 var(--ff-base);
+        margin-bottom: 2rem;
+    }
+
+    & p{
+        color: #E2E7E9;
+        font: 300 1.25rem/1.4 var(--ff-base);
+    }
+}
