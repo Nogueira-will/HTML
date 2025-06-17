@@ -1,7 +1,8 @@
 .hero{
     background-image: url(../assets/hero-background.png);
     background-size: cover;
-    height: 100vh;
+    background-position: center;
+    height: 140vh;
     /* Posição da imagem não ficou conforme figma */
     
 
@@ -12,6 +13,8 @@
         /* margin: 3.5rem 10rem 0 10rem; */
         align-items: center;
         justify-content: space-between;
+
+        text-align: center;
         
         a{
             /* Para conseguir fazer o after com as medidas exatas do link é necessário definir as medidas do link */
