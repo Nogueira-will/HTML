@@ -1,0 +1,134 @@
+.kit{
+    /* Parte de cabeçalho, texto do conheça seu kit mensal */
+    & header{
+        margin-bottom: 4rem;
+
+        & div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        & h2{
+            color: #F8FBFB;
+            font: 700 2rem/1 var(--ff-base);
+        }
+        
+        & span{
+            color: #E2E7E9;
+            font: 400 1rem/1.4 var(--ff-base);
+            display: flex;
+            justify-content: center;
+            opacity: 70%;
+        }
+    }
+}
+
+/* Inciando o book kit */
+.book-kit{
+    position: relative;
+    
+    width: 100%;
+    max-width: 80rem;
+    
+    margin-inline: auto;
+    
+    & span{
+        font: 400 .8rem/1.4 var(--ff-base);
+        color: #F8FBFB;
+        transition: all 700ms ease;
+    }
+
+    & .capa{
+        transform: translate(100%,100%);
+    }
+
+    & .broche{
+        transform: translate(-10%,0%);
+
+    }
+
+}
+    
+    .book-img{
+        margin-top: 30rem;
+        display: flex;
+        place-content: center;
+        align-items: center;
+        
+        & img{
+            position: absolute;
+            z-index: 0;
+            transition: all 700ms ease;
+        }
+        
+    
+    & img:nth-child(1){
+        position: absolute;
+        z-index: 1;
+        
+        width: 467px;
+        height: 617px;
+    }
+    
+    & img:nth-child(2){
+        width: 222px;
+        height: 254px;
+    }
+    
+    & img:nth-child(3){
+        width: 172px;
+        height: 536px;
+    }
+    
+    & img:nth-child(4){
+        width: 172px;
+        height: 536px;
+        z-index: -1;
+    }
+    
+    &:hover img:nth-child(2){
+        transform: translate(-135%,110%);
+        rotate: -8deg;
+    }
+    
+    &:hover img:nth-child(3){
+        transform: translate(150%,-25%);
+        rotate: 12deg;
+    }
+    
+    &:hover img:nth-child(4){
+        transform: translate(195%,-15%);
+        rotate: 22deg;
+    }
+    
+    &:hover img:nth-child(5){
+        transform: translate(-160%,-920%);
+    }
+    
+    &:hover img:nth-child(6){
+        transform: translate(-300%,100%);
+    }
+
+    &:hover img:nth-child(7){
+        transform: translate(195%,220%);
+    }
+    
+    &:hover .capa{
+        transform: translate(-250%,-1850%);
+    }
+    &:hover .broche{
+        transform: translate(-330%,200%);
+    }
+    &:hover .page{
+        transform: translate(110%,2420%);
+    }
+
+
+}
+
+
+
+
+
+
