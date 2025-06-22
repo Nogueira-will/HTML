@@ -1,0 +1,94 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: url(../assets/book-trace-background.png);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 60vh;
+
+    & .social-medias{
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+        margin-inline: 10rem auto;
+
+        & div:nth-child(2){
+            display: flex;
+            gap: 1rem;
+            padding-top: 1rem;
+
+            border-top: 1px solid #002347;
+        }
+
+        & a{
+            position: relative;
+
+            display: flex;
+            align-items: center;
+            place-content: center;
+
+            &:hover{
+                /* O brightnesse deixa a imagem preta e dps é invertida a deixando branca */
+                filter: brightness(0) invert(1);
+            }
+
+            &:hover::after{
+                opacity: 10%;
+                width: 40px;
+                height: 40px;
+            }
+        }
+        
+
+        & a::after{
+            content: "";
+            position: absolute;
+            background-color: #BAC6C9;
+
+            opacity: 0;
+
+            border-radius: 50%;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+
+    }
+
+    & .info-footer{
+        display: flex;
+
+        gap: 4rem;
+        margin-right: 10rem;
+
+        & h3{
+            font: 700 1rem/1 var(--ff-base);
+            color: #E2E7E9;
+        }
+        
+        & div{
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            
+                & a{
+                    font: 500 0.875rem/1 var(--ff-base);
+                    color: #73B6D2;
+        
+                    text-decoration: none;
+
+                    transition: all 300ms ease;
+
+                    &:hover{
+                        color: #E2E7E9;
+                    }
+                }
+        }
+    }
+}

@@ -3,7 +3,9 @@
     background-size: cover;
     background-position: center;
     height: 140vh;
+    opacity: 0;
     /* Posição da imagem não ficou conforme figma */
+    animation: appear 2s ease-in forwards;
     
 
     & header{
@@ -85,5 +87,11 @@
     & p{
         color: #E2E7E9;
         font: 300 1.25rem/1.4 var(--ff-base);
+    }
+}
+
+@keyframes appear{
+    to{
+        opacity: 1;
     }
 }

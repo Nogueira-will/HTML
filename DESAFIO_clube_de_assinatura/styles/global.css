@@ -12,6 +12,8 @@
 body{
     background-color: #00050A;
     font-family: "Raleway", sans-serif;
+    overflow-x: hidden;
+
 }
 
 a{
